@@ -1,0 +1,21 @@
+/* ofimatica */
+.gap{
+    display: grid;
+    grid-template-columns: repeat( 
+        auto-fit,
+        minmax(400px, 1fr));
+    gap: 20px;
+
+}
+
+.ofimatica__container{
+    position: relative;
+    box-shadow: 0 0 4px rgba(68, 6, 255, 0.505);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img__ofimatica{
+    width: 100%;
+}
+

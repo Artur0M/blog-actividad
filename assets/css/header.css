@@ -40,27 +40,36 @@ header h4{
     border-bottom: 2.4px solid #fff;
 }
 
-.nnavegacion li:nth-child(1) a:active{
+.navegacion li:nth-child(1) a:active{
     color: rgb(255, 128, 0);
     border-color:  rgb(255, 128, 0);
 }
 
-.nnavegacion li:nth-child(2) a:active{
+.navegacion li:nth-child(2) a:active{
     color: rgb(4, 220, 4);
     border-color: rgb(4, 220, 4);
 }
 
-.nnavegacion li:nth-child(3) a:active{
+.navegacion li:nth-child(3) a:active{
+    color: #8b25ff;
+    border-color: #8b25ff;
+}
+
+.navegacion li:nth-child(4) a:active{
     color: red;
     border-color: red;
 }
 
-.nnavegacion li:nth-child(4) a:active{
+.navegacion li:nth-child(5) a:active{
     color: yellow;
     border-color: yellow;
 }
 
 @media (max-width: 700px){
+    header{
+        position: inherit;
+    }
+
     header h4{
         margin: 15px 0;
     }

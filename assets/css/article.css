@@ -34,34 +34,36 @@
 
 .actividades__container iframe{
     display: flex;
-    width: clamp(200px, 100%, 500px);
+    width: clamp(10px, 100%, 500px);
     aspect-ratio: 16/9;
     border-radius: 10px;
-    /* margin: 0 auto; */
-}
+    box-shadow: 3px 3px 7px rgba(68, 6, 255, 0.505);
 
-.audio__container{
-    display: flex;
-    justify-content: right;
+    margin: 0 auto;
 }
-
-#folleto{
+#audio{
     border-color: rgb(255, 128, 0);
 }
+
 
 #tairona{
     border-color: rgb(4, 220, 4);
 }
 
-#postulacion{
-    border-color: red;
+#ofimatica{
+    border-color: #8b25ff;
 }
 
-#audio{
+#folleto{
+    border-color: red;
+}
+#postulacion{
     border-color: yellow;
 }
 
+
 .img_container{
+    position: relative;
     display: grid;
     grid-template-columns: repeat( 
         auto-fit,
@@ -75,9 +77,19 @@
     border-radius: 10px;
 }
 
-/* .audio_container{
+.img__folleto
+/* .img__contexto, */{
+    box-shadow: 3px 3px 7px rgba(68, 6, 255, 0.505);
+}
 
-} */
+
+.audio__container{
+    display: flex;
+    justify-content: right;
+}
+
+
+
 
 @media (max-width: 700px){
     .titulo__container{

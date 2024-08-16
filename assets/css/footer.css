@@ -1,0 +1,9 @@
+footer{
+    padding: var(--padding-start);
+    background-color: lightblue;
+}
+
+footer p{
+    text-align: center;
+    font-size: .7em;
+}
